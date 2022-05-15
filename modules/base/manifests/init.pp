@@ -4,6 +4,7 @@ class base {
 
   include base::install
   include base::vim
+  include base::ssh
 
   notify { "===== base =====\n": }
 
